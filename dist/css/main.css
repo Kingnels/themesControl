@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+html body {
+  padding: 2rem;
+  background-color: orange;
+}
+html body header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  border-bottom: 3px solid rgb(138, 69, 69);
+  padding-bottom: 1rem;
+  z-index: 1000;
+}
+html body header .heading {
+  font-size: 2rem;
+  color: white;
+}
+html body header .icons {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 80px;
+  gap: 0.2rem;
+}
+html body header .icons #moon {
+  background: white;
+  padding: 0.7rem;
+  border-radius: 10px;
+  color: rgb(46, 43, 40);
+}
+html body header .icons #sun {
+  display: none;
+  background: black;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 10px;
+}
+html body header .icons i {
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+html body .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  right: -50%;
+  left: -50%;
+  margin: 8rem auto;
+  font-size: 4rem;
+  color: white;
+  font-weight: 900;
+}
+html body .main p {
+  text-transform: uppercase;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

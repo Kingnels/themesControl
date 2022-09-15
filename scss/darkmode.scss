@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap'); 
+@import "resets";
+@import "main";
+
+body{
+    background-color:black; 
+
+    header{
+
+        .heading{
+            font-size: 2rem;
+            color:white;
+        }
+        .icons{
+            border: 1px solid white;
+            
+            .p{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                // border: 1px solid black;
+                
+                p{
+                color: white;
+                font-size: larger;
+                vertical-align: auto;
+                font-weight: 800;
+              }
+             }
+
+            #moon{
+                display: block;
+            }
+
+        }
+    }
+
+    .main{
+        p{
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+            span{
+                display: none;
+            }
+        }
+    }
+}

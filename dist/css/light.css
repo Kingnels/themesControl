@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+html body {
+  padding: 2rem;
+}
+html body header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  border-bottom: 3px solid rgb(138, 69, 69);
+  padding-bottom: 1rem;
+  z-index: 1000;
+}
+html body header .icons {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 80px;
+  gap: 0.8rem;
+}
+html body header .icons #moon {
+  background: black;
+  padding: 0.7rem;
+  border-radius: 10px;
+  color: white;
+}
+html body header .icons #sun {
+  display: none;
+  background: white;
+  color: black;
+  padding: 0.7rem;
+  border-radius: 10px;
+}
+html body header .icons i {
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+html body .main {
+  text-align: left;
+  margin: 10rem auto;
+}
+html body .main p {
+  width: 80vw;
+  margin: 8rem auto;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+body {
+  background-color: orange;
+}
+body header .heading {
+  font-size: 2rem;
+  color: black;
+}
+body header .icons {
+  border: 1px solid black;
+}
+body header .icons .p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body header .icons .p p {
+  font-size: larger;
+  vertical-align: auto;
+  font-weight: 800;
+}
+body header .icons #sun {
+  display: block;
+}
+body .main p {
+  text-align: center;
+  color: black;
+}/*# sourceMappingURL=light.css.map */
